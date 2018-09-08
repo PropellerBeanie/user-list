@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>People</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="index-heading">
+      <h1>People</h1>
+    </div>
+    <label class="sort-select-label">
+      Sort by
+    <select class="sort-select">
+      <option class="sort-list-byname-az" value="sort-list-byname-az">Name A to Z</option>
+      <option class="sort-list-byname-za" value="sort-list-byname-za">Name Z to A</option>
+      </select>
+    </label>
+    <ul class="user-list"></ul>
+    <div class="modal-window">
+      <button class="modal-close-button" type="button" title="Закрыть">Закрыть</button>
+      <div class="modal-content"></div>
+    </div>
+  </main>
+  <div class="modal-overlay"></div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
